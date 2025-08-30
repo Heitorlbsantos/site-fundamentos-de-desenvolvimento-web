@@ -142,14 +142,14 @@ h3 { font-size: var(--tamanho-fonte-h3); }
 }
 
 .d-flex-horizontal .column {
-    flex-basis: 50%;
+    flex-basis: calc(100% / 2 - 15px);
 }
 
 /** 
  * Header e Footer 
  */
 .logo-container {
-    width: 20%;
+    width: calc(20% - 15px);
     max-width: 250px;
 }
 
@@ -159,7 +159,7 @@ h3 { font-size: var(--tamanho-fonte-h3); }
 }
 
 .menu-container {
-    width: 80%;
+    width: calc(80% - 15px);
     text-align: right;
 }
 
